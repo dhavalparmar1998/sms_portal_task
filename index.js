@@ -19,7 +19,7 @@ dbconnect()
 
 const app = express();
 
-app.set("view engine", "ejs")
+app.set("view engine", ejs)
 app.use(bodyParser.urlencoded());
 app.use("/public", express.static("public"))
 
